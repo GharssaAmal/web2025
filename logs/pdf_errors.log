@@ -1,0 +1,53 @@
+[2025-05-02 15:20:28] Error in AddReservationDetails: file_get_contents(https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl=%7B%22reservation_id%22%3A58%2C%22destination%22%3A%22France%22%2C%22dates%22%3A%222025-04-29+-+2025-04-30%22%2C%22prix%22%3A%22100+TND%22%7D&amp;choe=UTF-8): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[2025-05-02 15:20:28] file_get_contents(https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl=%7B%22reservation_id%22%3A58%2C%22destination%22%3A%22France%22%2C%22dates%22%3A%222025-04-29+-+2025-04-30%22%2C%22prix%22%3A%22100+TND%22%7D&amp;choe=UTF-8): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Trace: #0 [internal function]: {closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(126): file_get_contents('https://chart.g...')
+#2 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(212): PDF->AddReservationDetails(Array)
+#3 {main}
+[2025-05-02 15:20:39] Error in AddReservationDetails: file_get_contents(https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl=%7B%22reservation_id%22%3A59%2C%22destination%22%3A%22France%22%2C%22dates%22%3A%222025-04-29+-+2025-04-30%22%2C%22prix%22%3A%22100+TND%22%7D&amp;choe=UTF-8): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+[2025-05-02 15:20:39] file_get_contents(https://chart.googleapis.com/chart?chs=200x200&amp;cht=qr&amp;chl=%7B%22reservation_id%22%3A59%2C%22destination%22%3A%22France%22%2C%22dates%22%3A%222025-04-29+-+2025-04-30%22%2C%22prix%22%3A%22100+TND%22%7D&amp;choe=UTF-8): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+Trace: #0 [internal function]: {closure}(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 126)
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(126): file_get_contents('https://chart.g...')
+#2 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(212): PDF->AddReservationDetails(Array)
+#3 {main}
+[2025-05-02 15:29:41] Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevel" not found
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(144): PDF->AddQRCode(150, 50, '{"id":62,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(226): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:29:51] Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevel" not found
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(144): PDF->AddQRCode(150, 50, '{"id":63,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(226): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:34:12] Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh" not found
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(155): PDF->AddQRCode(150, 50, '{"id":64,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(237): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:34:22] Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh" not found
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(155): PDF->AddQRCode(150, 50, '{"id":65,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(237): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:34:33] Class "Endroid\QrCode\ErrorCorrectionLevel\ErrorCorrectionLevelHigh" not found
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(155): PDF->AddQRCode(150, 50, '{"id":66,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(237): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:36:57] Starting QR code generation with data: "{\"id\":67,\"dest\":\"France\",\"dates\":\"2025-04-29 - 2025-04-30\",\"prix\":\"100 TND\"}"
+[2025-05-02 15:36:57] Class "BaconQrCode\Renderer\Image\GdImageBackEnd" not found
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(178): PDF->AddQRCode(150, 50, '{"id":67,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(260): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:45:05] Starting QR code generation with data: "{\"id\":68,\"dest\":\"France\",\"dates\":\"2025-04-29 - 2025-04-30\",\"prix\":\"100 TND\"}"
+[2025-05-02 15:45:05] Temporary file created: C:\Windows\Temp\qr_B32E.tmp.png
+[2025-05-02 15:45:05] QR Code generated successfully
+[2025-05-02 15:45:05] Error in AddQRCode: QR code temporary file not found after generation: C:\Windows\Temp\qr_B32E.tmp.png
+Stack trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(158): PDF->AddQRCode(150, 50, '{"id":68,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(240): PDF->AddReservationDetails(Array)
+#2 {main}
+[2025-05-02 15:45:05] Error in AddReservationDetails: QR code temporary file not found after generation: C:\Windows\Temp\qr_B32E.tmp.png
+[2025-05-02 15:45:05] QR code temporary file not found after generation: C:\Windows\Temp\qr_B32E.tmp.png
+Trace: #0 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(158): PDF->AddQRCode(150, 50, '{"id":68,"dest"...')
+#1 C:\xampp\htdocs\voyage\voyage\view\front-office\generate_pdf.php(240): PDF->AddReservationDetails(Array)
+#2 {main}
